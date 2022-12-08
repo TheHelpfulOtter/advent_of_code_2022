@@ -35,6 +35,7 @@ def calc_score():
                 player_2_score += 0 + 1
             elif move == ("C X"):  # Opp. chose scissors, so you must choose paper
                 player_2_score += 0 + 2
+
         # Y is draw
         if "Y" in move:
             if move == ("A Y"):
@@ -43,6 +44,7 @@ def calc_score():
                 player_2_score += 3 + 2
             elif move == ("C Y"):
                 player_2_score += 3 + 3
+
         # Z is win
         if "Z" in move:
             if move == ("A Z"):
